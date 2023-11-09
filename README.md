@@ -1,58 +1,53 @@
-1-Títulos
-# Funciones Python
-## Funciones Python
-### Funciones Python
-#### Funciones Python
-##### Funciones Python
-###### Funciones Python
+# Ejercicios Funciones Lambda en Python
 
-ejercicios a resolver en clase ( linea de texto )
+Este repositorio se basa en unos cuantos ejercicios sobre Funciones Lambda en Pyhton.
 
-2-formato de texto
-    Negrita: **texto** o __texto__
-    Cursiva: *texto* o _texto_
-    Tachado: ~~texto~~
+## Objetivos
 
-3-Listas ordenadas
-1. Primer ítem
-2. Segundo ítem
-3. Tercer ítem
+El principal objetivo no es otro que aprender y seguir cogiendo experiencia en en este mundillo. Continuar con la practica con el código, en concreto en el ámbito de las Funciones Lambda Dentro de este objetivo se desprenden 11 ejercicios con escala de dificultad ascendente, estos son: 
 
-4-Listas no ordenadas
-- Ítem
-- Otro ítem
-  * Subítem
-  * Otro subítem
-- Ítem final
+1. Escriba un programa en Python que genere una función lambda que permita multiplicar dos números.
 
-5-Enlaces
-[Texto del enlace](URL)
+2. Escriba una función de Python para dar la suma de los números de una lista.
 
-6-Imágenes
-![Texto alternativo](URL de la imagen)
+3. Dada una lista y un número, cree una función que devuelva dos parámetros:
 
-7-Códigos
-`` código ``
+  - Si está dicho número en esa lista. En dicho caso Devolverá `TRUE`. En caso contrario, `False`.
 
-8-bloques de código
+  - Si la longitud de la lista coincide con dicho número. En dicho caso devolverá `TRUE`. En caso contrario, `False`.
+
+4. Dada una lista, cree dos funciones, una que devuelva el mayor número y otra que devuelva en menor número.
+
+5. Use la funcion `sorted` para ordenar una lista de números en orden ascendente y también descendente.
+
+6. Dada una lista de palabras que defina y una palabra introducida por el usuario, analice si dicha palabra está en la lista.
+
+En el caso de que la encuentre deberá avisar. 
+Si no está, deberá añadirla a la lista. 
+
+7. Cree una función para contar la cantidad de números negativos de una lista.
+
+8. Cree una función para contar la cantidad de números impares de una lista.
+
+9. Dada una palabra, cuente el número de vocales que tiene.
+
+10. Imprima el abecedario al revés.
+
+11. Dado este diccionario concatenado
+
 ```python
-def funtion():
+d = {'k1':[1,2,3,{'tricky':['oh','man','inception',{'target':[1,2,3,'hello']}]}]}
 ```
+obtenga el string 'hello'
 
-9-tablas
-| Encabezado 1 | Encabezado 2 |
-|--------------|--------------|
-| Celda 1A     | Celda 1B     |
-| Celda 2A     | Celda 2B     |
+## Código
 
-10-citas
-> Esto es una cita.
-> - Autor
+Para ejecutar el código, primero, antes de todo, asegúrese de tener todas las dependencias instaladas.
 
-11-tareas
-- [x] Tarea completada
-- [ ] Tarea pendiente
+## Contribuciones
 
-12-emojis:
-:smile: :+1: :sparkles:
+Las contribuciones a este repositorio son bienvenidas. Asegúrese de que el código siga las mejores prácticas y esté bien documentado.
 
+## Licencia
+
+Este proyecto está bajo la licencia MIT.
